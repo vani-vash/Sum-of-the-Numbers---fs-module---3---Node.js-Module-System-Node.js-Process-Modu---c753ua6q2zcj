@@ -16,5 +16,3 @@ for (let line of lines) {
 }
 
 fs.writeFileSync(outputPath, total.toString(), "utf8");
-
-console.log(total);
